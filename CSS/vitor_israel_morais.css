@@ -1,0 +1,133 @@
+:root {
+--color_1: #401F71;
+--color_2: #824D74;
+--color_3: #BE7B72;
+--color_4: #FDAF7B;
+--color_aux_5: white;
+--color_aux_6: black;
+}
+nav img{
+    border-radius: 15%;
+    width: 90px;
+}
+.link{
+    text-align: center;
+    color: var(--color_aux_5);
+}
+.navbar{
+    background-color: var(--color_1);
+    font-size: 20px;
+}
+.color_button_nav{
+    background-color: var(--color_aux_5);
+}
+.body_color{
+    background-color: var(--color_4);
+}
+.title{
+    text-align: center;
+    margin-top: 15px;
+}
+.p{
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--color_aux_6);
+}
+.img_bodys{
+    width: 80vh;
+}
+.img_bodys_2{
+    width: 65vh;
+    justify-content: center;
+}
+.img_bodys_3{
+    width: 45vh;
+    justify-content: center;
+    padding-left:15px ;
+    margin-bottom: 15px;
+}
+.img_bodys_4{
+    width: 60vh;
+    
+}
+.section_color{
+    background-color: var(--color_4);
+    border: 2px solid var(--color_aux_6);
+    margin-top: 10px;
+}
+.section_color_2{
+    background-color: var(--color_3);
+    border: 2px solid var(--color_aux_6);
+    margin-top: 10px;
+}
+.section_color_3{
+    background-color: var(--color_2);
+    border: 2px solid var(--color_aux_6);
+    margin-top: 10px;
+}
+.section_color_pg2{
+    background-color: var(--color_4);
+    padding: 15px;
+    border: 2px solid var(--color_aux_6);
+}
+.section_color_pg2_2{
+    background-color: var(--color_2);
+    padding: 15px;
+    border: 2px solid var(--color_aux_6);
+}
+.section_resolution{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section_resolution_2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.section_colorpg2_2{
+    background-color: var(--color_3);
+    padding: 15px;
+    border: 2px solid var(--color_aux_6);
+}
+.footer{
+    background-color: var(--color_1);
+    padding: 70px;
+}
+.letter_footer{
+    text-align:left;
+    color: var(--color_aux_5);
+}
+.redes{
+    width: 4vh;
+    border-radius: 25px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.redes_2{
+    width: 4vh;
+    border-radius: 25px;
+    display:flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: flex-end;
+}
+.div_class{
+    display: flex;
+    justify-content: center;
+}
+.iframe{
+    justify-content: center;
+    display: flex;
+}
+.carousel_img{
+   
+    height: 75vh;
+}
+.link_color{
+    color: var(--color_aux_5);
+    transition: 0.5;
+}
+.nav-link:hover{
+    color: var(--color_4);
+    transition: 0.5;
+}
